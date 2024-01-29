@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(__MACOSX/fontes/._idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #43fa9579;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #70d485, #266833 75%);
+    font-family: 'idroid', sans-serif;
+}
+
+.principal h1 {
+    color: white;
+    height: 60px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+.principal p {
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+
+.principal {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+main {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 800px;
+    box-shadow: 0px 4px 10px #266833;
+}
+
+main h1 {
+    color: #266833;
+    font-family: 'android';
+}
+
+main h2 {
+    color: #266833;
+    padding-left: 10px;
+    font-family: 'android';
+    background-image: linear-gradient(to right, #4bb66059, #ffffff59);
+}
+
+p {
+    text-indent: 25px;
+    text-align: justify;
+    font-family: 'idroid', sans-serif;
+}
+
+main a {
+    color: #266833;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #9fdaab;
+    padding: 4px;
+}
+
+span {
+    color: #266833;
+    font-weight: bold;
+}
+
+.imagem {
+    margin-left: 250px;
+}
+
+.video {
+    background-color: #266833;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: white;
+}
+
+.conteudo {
+    background-color: #9fdaab;
+    border-radius: 10px 10px;
+    padding-right: 10px;
+    height: 370px;
+}
+
+.conteudo ol li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.conteudo p {
+    padding-left: 10px;
+}
+
+main h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #47ad5d;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 790px;
+    height: 30px;
+}
+
+footer p {
+    background-color: #266833;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer p span {
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}

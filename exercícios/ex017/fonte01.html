@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+        
+        body {
+            font-family: 'lemon', serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc      px vamos usar
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %      em vamos usar
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+            font-family: 'lemon', serif;
+            font-weight: normal;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bold 3em 'lemon', serif;
+        }
+
+        h2 {
+            font: bold 2em 'lemon', serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quod voluptatibus voluptates, quisquam ratione fuga ea quo pariatur incidunt ad cupiditate eveniet culpa, tempora dolores minima necessitatibus odio! Numquam, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sequi quod, animi, sapiente itaque incidunt corrupti fugit, amet ipsam vero consectetur hic illum quos officiis vitae voluptate nam cumque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo consequuntur, distinctio ea possimus ducimus natus illo suscipit a, impedit est cum inventore laboriosam itaque nisi deserunt nobis eveniet cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptatibus voluptates veniam vel explicabo dolores maiores pariatur voluptas exercitationem velit iusto illo sunt magni molestiae eveniet, corporis dolor similique error? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur labore pariatur necessitatibus aliquam incidunt voluptatum quo optio. Soluta amet esse ad cupiditate ipsam atque sunt quod, alias eius nostrum adipisci!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita commodi aliquam et quaerat possimus eligendi, soluta suscipit. Accusantium eum numquam assumenda nemo qui itaque, sunt vitae laborum sequi laudantium?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aspernatur blanditiis similique, laboriosam consequuntur unde iusto porro veritatis, fuga deserunt veniam temporibus a consectetur adipisci iste molestias atque amet. Quae?</p>
+</body>
+</html>
