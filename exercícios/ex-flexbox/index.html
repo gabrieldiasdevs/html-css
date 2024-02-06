@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        main {
+            height: 500px;
+            padding: 16px;
+            background-color: bisque;
+            color: white;
+        }
+
+        .bloco-1, .bloco-2, .bloco-3 {
+            text-align: center;
+            width: 150px;
+            height: 150px;
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 16px;
+        }
+       
+       .bloco-1 {
+        background-color: rgb(32, 45, 161);
+        order: 0;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        flex: 0 1 auto;
+        align-self: flex-start;
+        }
+
+        .bloco-2 {
+        background-color: rgb(34, 133, 50);
+        order: 0;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        flex: 0 1 auto;
+        align-self: center;
+        }
+
+        .bloco-3 {
+        background-color: rgb(175, 36, 152);
+        order: 0;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        flex: 0 1 auto;
+        align-self: flex-end;
+        }
+       
+        /*  displey: flex;
+            flex-direction: column, column-reverse, row, row-reverse;
+            justify-content: flex-start, flex-end, center, space-between, space-around; (HORIZONTAL)
+            align-items: flex-start, flex-end, center, stretch, baseline; (VERTICAL)
+            align-content: flex-start, flex-end, space-between, space-around;
+            flex-wrap: nowrap, wrap, wrap-reverse;
+            flex-flow: row wrap;
+
+            order: 0, 1, 2...;
+        */
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            
+            flex-wrap: nowrap;
+            flex-direction: row;
+            flex-flow: row wrap;
+            
+            gap: 10px 30px;
+            row-gap: 10px;
+            column-gap: 30px;
+        }
+    
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+        <!-- <div class="bloco-1">4</div>
+        <div class="bloco-2">5</div>
+        <div class="bloco-3">6</div>
+        <div class="bloco-1">7</div>
+        <div class="bloco-2">8</div>
+        <div class="bloco-3">9</div>
+        <div class="bloco-1">10</div>
+        <div class="bloco-2">11</div>
+        <div class="bloco-3">12</div> -->
+    </main>
+</body>
+</html>
