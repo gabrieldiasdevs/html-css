@@ -124,4 +124,14 @@ nav ul button:hover {
     color: white;
     margin-bottom: 20px;
     text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.bloco-conteudo .texto p {
+    max-width: 280px;
+    color: white;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
 }
