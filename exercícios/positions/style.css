@@ -21,6 +21,7 @@ div {
 /* ABSOLUTE */
 
 .absolute {
+    color: #fff;
     height: 25px;
     width: 70px;
     background-color: #914;
