@@ -73,3 +73,23 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+@media screen and (min-width: 768px) {
+
+    span#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+
+}
